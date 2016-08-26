@@ -1,19 +1,12 @@
 
-
-div.container{	
+.container {	
 	margin: 0 auto;
 	width: 1000px;
 	background-color: #fff;
-	-webkit-box-shadow: 0px 0px 8px 6px rgba(10,91,114,1);
-	-moz-box-shadow: 0px 0px 8px 6px rgba(10,91,114,1);
-	box-shadow: 0px 0px 8px 6px rgba(10,91,114,1);
-
-	-webkit-box-shadow: 0px 8px 11px 3px rgba(3,29,40,1);
-	-moz-box-shadow: 0px 8px 11px 3px rgba(3,29,40,1);
 	box-shadow: 0px 8px 11px 3px rgba(3,29,40,1);
 }
 
-.clearfix:after{
+.clearfix:after {
 	content: "";
 	clear:both;
 	display: block;
@@ -21,11 +14,7 @@ div.container{
 
 /* HEADER */
 
-span{
-	font-size: small;
-}
-
-.contact{
+.contact {
 	float:right;
 	padding-right: 33px;
 	padding-top:13px;
@@ -34,7 +23,7 @@ span{
 	color: #7bbece;
 }
 
-.country{
+.country {
 	float: right;
 	clear: right;
 	font-size: 10px;
@@ -44,32 +33,31 @@ span{
 	padding-right: 30px;
 }
 
-.country li{
+.country li {
 	float: left;
 	width: 56px;
 }
 
-.country a{
+.country a {
 	display: block;
+	text-decoration: underline;
 }
 
-nav{
-	display: block;
-	position: relative;
-	top: -1px;
+nav {
+	background-color: #353535;
 	border-bottom: 1px solid #000;
-	-webkit-box-shadow: 0px 2px 4px 1px rgba(79,79,80,1);
-	-moz-box-shadow: 0px 2px 4px 1px rgba(79,79,80,1);
 	box-shadow: 0px 2px 4px 1px rgba(79,79,80,1);
+	overflow: hidden;
+	position: relative;
+	top: -1px;	
 }
 
-
-figure.logo{
+.logo {
 	float: left;
 	display: block;
 }
 
-figure.pic{
+.pic { 
 	display: block;
 	clear: both;
 	position: relative;
@@ -79,53 +67,44 @@ figure.pic{
 	height: 235px;
 }
 
-nav{
-	margin:;
-	overflow: hidden;
-	position: relative;
-	background-color: #353535;
-}
-
-nav a{
+nav a {
 	color: #fff;
 	display: block;
 	font-size: 14px;	
 	line-height: 28px;
-	text-decoration: none;
 }
 
-nav a.main{
+.main {
 	width: 175px;
 	text-align: center;
 }
 
-nav a.travel{
+.travel {
 	padding-left: 10px;
 	width: 148px;
 }
 
-nav a.service{
+.service {
 	padding-left: 10px;
 	width: 110px;
 }
 
-nav a.partner{
+.partner {
 	padding-left: 10px;
 	width: 137px;
 }
 
-nav a.client{
+.client {
 	width: 187px;
 }
 
-nav a.aboutus{
+.aboutus {
 	width: 99px;
 }
 
 nav li{
 	float:left;
 }
-
 
 /* DROPDOWN */
 
@@ -143,7 +122,6 @@ ul.menu > li {
 
 ul.menu > li > a {
 	display: block;
-	text-decoration: none;
 }
 
 ul.submenu {
