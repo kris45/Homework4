@@ -47,7 +47,6 @@ nav {
 	background-color: #353535;
 	border-bottom: 1px solid #000;
 	box-shadow: 0px 2px 4px 1px rgba(79,79,80,1);
-	overflow: hidden;
 	position: relative;
 	top: -1px;	
 }
@@ -102,46 +101,46 @@ nav a {
 	width: 99px;
 }
 
-nav li{
+.menu li{
 	float:left;
 }
 
 /* DROPDOWN */
 
-ul:after {
+.menu {
+	display:block;
+}
+
+ ul.menu:after {
 	display: block;
 	content: "";
 	clear: both;
 	float: none;
 }
 
-ul.menu > li {
-	float: left;
-	position: relative;
-}
-
-ul.menu > li > a {
+ul.menu  li  a {
 	display: block;
 }
 
 ul.submenu {
 	display: none;
-	position: absolute;
+	width:100px;	
+    background:black;	
 }
 
-ul.submenu > li {
+ul.submenu  li {
 	display: block;
 }
 
-ul.submenu > li > a {
+ul.submenu  li  a {
 	display: block;
 }
 
-ul.submenu > li > a:hover {
+ul.submenu  li  a:hover {
 	text-decoration: underline;
 }
 
-ul.menu > li:hover > ul.submenu {
+ul.menu  li:hover  ul.submenu {
 	display: block;
 }
 
