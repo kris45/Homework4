@@ -85,7 +85,8 @@ nav a {
 
 .service {
 	padding-left: 10px;
-	width: 110px;
+	padding-right:30px;
+	width: 80px;
 }
 
 .partner {
@@ -111,37 +112,26 @@ nav a {
 	display:block;
 }
 
- ul.menu:after {
+nav ul:after {
 	display: block;
 	content: "";
 	clear: both;
 	float: none;
 }
 
-ul.menu  li  a {
-	display: block;
-}
-
-ul.submenu {
+.submenu {
 	display: none;
-	width:100px;	
-    background:black;	
+    background:#353535;
+    border-top:	1px solid #000;
 }
 
-ul.submenu  li {
-	display: block;
-}
-
-ul.submenu  li  a {
-	display: block;
-}
-
-ul.submenu  li  a:hover {
+.submenu  a:hover {
 	text-decoration: underline;
 }
 
-ul.menu  li:hover  ul.submenu {
+.menu  li:hover  .submenu {
 	display: block;
+	position:absolute;
 }
 
 /* CONTENT */
