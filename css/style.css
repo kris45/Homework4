@@ -162,8 +162,11 @@ h3{
 
 footer{
 	clear: both;
-	color: #cee3ec;
 	text-align: center;
 	font-size: 12px;
 	line-height: 30px;
+}
+
+footer a{
+	color: #cee3ec;
 }
